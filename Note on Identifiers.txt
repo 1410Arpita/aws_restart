@@ -1,0 +1,24 @@
+Rules to define identifire in python
+Rules-1
+Alphabets symbols(capital letter or small letter a-z/A-Z)
+Digits (0 to 9)
+underscore symbol(_)
+Rules-2
+Identifires should not start with digit
+Rules-3
+Identifires are case sensitive .Python lan is case sensitive language.
+Rules-4
+If identifire start with _ then it indicates it is private
+Rules-5-6
+$ is not allowed in python
+we can not use reservered word like ....def ,for,while
+
+Resevered Words
+True,False,None,and or,not,is,if,elif,else,while,for,break,continue,return,
+in ,yield,try,except,finally,raise,assert,import,from ,as,class,def,pass
+,global,nonlocal,lambda,del ,with
+
+to check it reserverd keyword
+import keyword
+keyword.kwlist
+print(keyword.kwlist)
